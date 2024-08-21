@@ -1,0 +1,161 @@
+/* 기본 스타일 */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header {
+    background: linear-gradient(135deg, #0d47a1, #18bc9c);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.card {
+    background: linear-gradient(135deg, white, #4ca1af);
+    border: none;
+    border-radius: 1rem;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+.card h2 {
+    margin-top: 0;
+    font-weight: 300;
+    color: #18bc9c;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background: linear-gradient(135deg, #0d47a1, #18bc9c);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+    color: #e0e0e0;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #18bc9c;
+}
+
+.testimonial-item {
+    background: linear-gradient(135deg, white, #4ca1af);
+    border-left: 4px solid #18bc9c;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.testimonial-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* 추가된 스타일 */
+.testimonial-item p {
+    margin: 0;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #e0e0e0;
+    border-radius: 50%;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link {
+    border-radius: 1rem;
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #18bc9c;
+    color: white;
+}
+
+/* 서버 정보, 초대 링크, 서버 기능, 서버 뉴스 섹션 스타일 */
+#server-info, #invite-link, #features, #news {
+    background: linear-gradient(135deg, white, #4ca1af);
+    border-radius: 1rem;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#server-info:hover, #invite-link:hover, #features:hover, #news:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+#server-info h2, #invite-link h2, #features h2, #news h2 {
+    color: #18bc9c;
+    font-weight: 300;
+}
+
+#invite-link a {
+    color: #18bc9c;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#invite-link a:hover {
+    text-decoration: underline;
+}
